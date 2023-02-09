@@ -21,7 +21,7 @@ current_direction = Direction.UP
 
 @app.get("/")
 async def root():
-    return {"apiversion": "1", "author": "Naga", "color": "#FAFA33", "head": "gamer", "tail": "mouse","version": "0.0.1"}
+    return {"apiversion": "1", "author": "Naga", "color": "#FAFA33", "head": "gamer", "tail": "mouse","version": "0.0.2"}
 
 @app.post("/start")
 async def start():
